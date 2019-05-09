@@ -4,6 +4,7 @@ class Lobby extends BaseSite {
     this.html_file = "lobby.html"
     this.cache = {}; // { "ip": { "last_update": timestamp, "data": {} }}
     this.minimum_loading_time = 500; // we simulate a longer loading time, else the user thinks nothing happend
+    this.is_loading = false;
     this.default_servers = {
       "North America (CA)": { ip: "na.oot-online.org", gameport: 8082, lobbyport: 8083 },
       "Europe (DE)": { ip: "eu.oot-online.org", gameport: 8082, lobbyport: 8083 }
@@ -23,6 +24,9 @@ class Lobby extends BaseSite {
     this.refreshLobbyList(this.current_server.ip, this.current_server.lobbyport);
     $("#btn-join").click(this.joinWindow);
     $("#btn-create").click(this.createWindow);
+    $("#btn-refresh").click((function(){
+      this.refreshLobbyList(this.current_server.ip, this.current_server.lobbyport);
+    }).bind(this));
   }
 
   createTable(){
@@ -138,26 +142,31 @@ class Lobby extends BaseSite {
   }
 
   refreshLobbyList(server_ip, lobbyport, force_update=false){
-    this.lobbyStatus("loading");
-    if(!(server_ip in this.cache)){
-      force_update = true;
+    if(!this.is_loading){
+      this.is_loading = true;
+      this.lobbyStatus("loading");
+      if(!(server_ip in this.cache)){
+        force_update = true;
+      }
+      if(force_update){
+          $.getJSON( "http://"+server_ip+":"+lobbyport+"/LobbyBrowser", (function( data ) {
+            this.cache[server_ip] = {
+              data: data,
+              timestamp: Date.now()
+            };
+            this.setLobbyData(data);
+            this.lobbyStatus("success");
+            this.is_loading = false;
+          }).bind(this)).fail((function(){
+            this.lobbyStatus("error");
+            this.is_loading = false;
+          }).bind(this));
+      } else {
+        this.setLobbyData(this.cache[server_ip].data);
+        this.lobbyStatus("success");
+        this.is_loading = false;
+      }
     }
-    if(force_update){
-        $.getJSON( "http://"+server_ip+":"+lobbyport+"/LobbyBrowser", (function( data ) {
-          this.cache[server_ip] = {
-            data: data,
-            timestamp: Date.now()
-          };
-          this.setLobbyData(data);
-          this.lobbyStatus("success");
-        }).bind(this)).fail((function(){
-          this.lobbyStatus("error");
-        }).bind(this));
-    } else {
-      this.setLobbyData(this.cache[server_ip].data);
-      this.lobbyStatus("success");
-    }
-
   }
   setLobbyData(data){
     this.table.setData(data);
