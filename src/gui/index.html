@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script>
+        window.$ = window.jQuery = require('jquery');
+        // window.popper = require('popper');
+        window.Bootstrap = require('bootstrap');
+        window.bootbox = require('bootbox');
+        window.octicons = require("octicons");
+        window.hri = require('human-readable-ids').hri;
+      </script>
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link href="https://unpkg.com/tabulator-tables@4.2.7/dist/css/tabulator.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+
+      <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+
+      <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.7/dist/js/tabulator.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+      <!-- <script type="text/javascript" src="https://github.com/makeusabrew/bootbox/releases/download/v5.1.1/bootbox.js"></script> -->
+      <!-- <script type="text/javascript" src="https://github.com/makeusabrew/bootbox/releases/download/v5.1.1/bootbox.locales.js"></script> -->
+
+      <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+      <!-- <script type="text/javascript" src="sites/main.js"></script> -->
+
+      <!-- <link rel="stylesheet" href="css/bootstrap_colors.css" /> -->
+      <!-- <link rel="stylesheet" href="css/background.css" /> -->
+
+      <!-- CORE JS FILES -->
+      <script src="js/base_site.js"></script>
+      <script src="js/base_dialog.js"></script>
+      <script src="js/site_loader.js"></script>
+
+      <!-- SITES -->
+      <script src="js/sites/lobby.js"></script>
+      <script src="js/sites/server.js"></script>
+
+      <!-- DIALOGS -->
+      <script src="js/dialogs/room_create.js"></script>
+      <script src="js/dialogs/room_join.js"></script>
+      <script src="js/dialogs/report.js"></script>
+
+  </head>
+
+  <body>
+    <div class="fog">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" onclick="load_site('Lobby');" href="#">Start <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profiles</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dev- & Helptools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Console</a>
+                <a class="dropdown-item" href="#" onclick="new global.dialogs.Report()">Report</a>
+                <a class="dropdown-item" href="#" onclick="load_site('Server')">Host Server</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="octicon octicon-mark-github"></i>About</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Website</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discord</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br />
+      <div class="container-fluid" id="main-window">
+
+      </div>
+    </div>
+  </body>
+</html>

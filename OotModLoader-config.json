@@ -1,0 +1,30 @@
+{
+  "SERVER": {
+    "master_server_ip": "192.99.70.23",
+    "master_server_port": "8082",
+    "isMaster": false
+  },
+  "CLIENT": {
+    "isClient": true,
+    "nickname": "Player",
+    "game_room": "spotty-fish-16",
+    "game_password": "",
+    "tunic_colors": {
+      "kokiri": "#1E691B",
+      "goron": "#641400",
+      "zora": "#003C64"
+    },
+    "tunic_colors_enabled": false,
+    "patchFile": "",
+    "localPort": {
+      "tcp": 1337,
+      "udp": 60001
+    },
+    "TCP_Mode": false
+  },
+  "PLUGINS": {
+    "OotOnline": {
+      "max_players": 4
+    }
+  }
+}

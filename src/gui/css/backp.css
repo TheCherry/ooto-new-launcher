@@ -1,0 +1,118 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  color: white;
+}
+
+.navbar-color {
+  opacity: 0.9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: 700;
+  /* font-family: 'Montserrat'; */
+}
+
+
+.tabulator-row {
+    position: relative;
+    box-sizing: border-box;
+    max-height: 38px;
+    background-color: rgba(1, 0, 12, 0.25);
+}
+
+.tabulator .tabulator-footer {
+  background-color: rgba(1, 0, 12, 0.25);
+  color: #FFF;
+}
+
+.tabulator .tabulator-footer .tabulator-page {
+    border-radius: 3px;
+    background-color: rgba(1, 0, 12, 0.25);
+    color: #FFF;
+}
+/*Theme the Tabulator element*/
+#example-table{
+    background-color: rgba(1, 0, 12, 0.25);
+    border: 0px solid #333;
+    border-radius: 10px;
+}
+
+/*Theme the header*/
+#example-table .tabulator-header {
+    background-color: rgba(1, 0, 12, 0.25);
+    color: rgba(1, 0, 12, 0.25);
+}
+
+/*Allow column header names to wrap lines*/
+#example-table .tabulator-header .tabulator-col,
+#example-table .tabulator-header .tabulator-col-row-handle {
+    /* white-space: normal; */
+    color:rgba(255, 255, 255, 1.0);
+    background-color:  rgba(1, 0, 12, 0.25);
+}
+
+#example-table .tabulator-tableHolder .tabulator-table {
+  color: white;
+  background-color:  rgba(1, 0, 12, 0.1);
+}
+
+/*Color the table rows*/
+#example-table .tabulator-tableHolder .tabulator-table .tabulator-row{
+    color: white;
+    background-color:  rgba(1, 0, 12, 0.1);
+}
+
+/*Color even rows*/
+    #example-table .tabulator-tableHolder .tabulator-table .tabulator-row:nth-child(even) {
+    background-color:  rgba(1, 0, 12, 0.25);
+}
+
+
+.fog {
+  background-color: #1309ca;
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* pointer-events: none; */
+}
+.fog:before, .fog:after {
+  content: "";
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  height: 400%;
+  width: 400%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+.fog:before {
+  background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-1.png');
+  animation: drift 40s linear 0s infinite;
+}
+.fog:after {
+  background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-2.png');
+  animation: drift 20s linear 0s infinite;
+}
+@keyframes drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-200vw, 0, 0);
+  }
+}

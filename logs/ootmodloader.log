@@ -1,0 +1,614 @@
+[2019-05-08T13:06:22.092Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T13:06:22.092Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T13:06:22.092Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T13:08:53.267Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T13:08:53.268Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T13:08:53.268Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T13:11:15.020Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T13:11:15.021Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T13:11:15.021Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T13:15:14.098Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T13:15:14.099Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T13:15:14.099Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:20:37.290Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:20:37.290Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:20:37.290Z] DEBG - (CONSOLE): undefined
+[2019-05-08T15:20:37.290Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:26:05.463Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:26:05.464Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:26:05.464Z] DEBG - (CONSOLE): undefined
+[2019-05-08T15:26:05.464Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:26:28.992Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:26:28.993Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:26:28.993Z] DEBG - (CONSOLE): undefined
+[2019-05-08T15:26:28.993Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:26:38.063Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:26:38.064Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:26:38.064Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:26:38.064Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:33:31.262Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:33:31.263Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:33:31.263Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:33:31.263Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:33:31.656Z] INFO - (Core): ==================================
+[2019-05-08T15:33:31.656Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T15:33:31.656Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T15:33:31.656Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T15:33:31.656Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T15:33:31.656Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T15:33:31.656Z] INFO - (Core): ==================================
+[2019-05-08T15:33:31.713Z] DEBG - (Client): Setting up client...
+[2019-05-08T15:33:31.713Z] DEBG - (Client): Master Server IP: undefined:undefined
+[2019-05-08T15:33:59.649Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:33:59.649Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:33:59.649Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:33:59.649Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:34:00.032Z] INFO - (Core): ==================================
+[2019-05-08T15:34:00.032Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T15:34:00.033Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T15:34:00.033Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T15:34:00.033Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T15:34:00.033Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T15:34:00.033Z] INFO - (Core): ==================================
+[2019-05-08T15:34:00.091Z] DEBG - (Client): Setting up client...
+[2019-05-08T15:34:00.091Z] DEBG - (Client): Master Server IP: undefined:undefined
+[2019-05-08T15:34:32.114Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:34:32.114Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:34:32.115Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:34:32.115Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:34:32.501Z] INFO - (Core): ==================================
+[2019-05-08T15:34:32.501Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T15:34:32.501Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T15:34:32.501Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T15:34:32.501Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T15:34:32.501Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T15:34:32.501Z] INFO - (Core): ==================================
+[2019-05-08T15:37:14.583Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:37:14.584Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:37:14.584Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:37:14.584Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:37:15.017Z] INFO - (Core): ==================================
+[2019-05-08T15:37:15.017Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T15:37:15.017Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T15:37:15.017Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T15:37:15.017Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T15:37:15.018Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T15:37:15.018Z] INFO - (Core): ==================================
+[2019-05-08T15:40:23.133Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T15:40:23.133Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T15:40:23.134Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T15:40:23.134Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T15:40:23.542Z] INFO - (Core): ==================================
+[2019-05-08T15:40:23.542Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T15:40:23.543Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T15:40:23.543Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T15:40:23.543Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T15:40:23.543Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T15:40:23.543Z] INFO - (Core): ==================================
+[2019-05-08T16:05:18.417Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T16:05:18.418Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T16:05:18.418Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T16:05:18.418Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T16:05:18.807Z] INFO - (Core): ==================================
+[2019-05-08T16:05:18.807Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:05:18.807Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:05:18.807Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:05:18.807Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:05:18.807Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:05:18.807Z] INFO - (Core): ==================================
+[2019-05-08T16:06:02.493Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T16:06:02.494Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T16:06:02.494Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"C:\\Users\\dee\\Documents\\projekte\\new_launcher\\OotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T16:06:02.494Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\
+[2019-05-08T16:06:02.883Z] INFO - (Core): ==================================
+[2019-05-08T16:06:02.883Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:06:02.883Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:06:02.883Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:06:02.884Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:06:02.884Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:06:02.884Z] INFO - (Core): ==================================
+[2019-05-08T16:06:02.941Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T16:13:05.879Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\
+[2019-05-08T16:13:05.880Z] DEBG - (CONSOLE): C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotLogger
+[2019-05-08T16:13:05.880Z] DEBG - (CONSOLE): {"_my_uuid":"","file":"undefinedOotModLoader-config.json","cfg":{"SERVER":{"master_server_ip":"na.oot-online.org","master_server_port":"8082","isMaster":false},"CLIENT":{"isClient":true,"nickname":"","game_room":"","game_password":"","tunic_colors":{"kokiri":"#ffffff","goron":"#ff8000","zora":"#060606"},"tunic_colors_enabled":true,"patchFile":"","localPort":{"tcp":1337,"udp":60001},"TCP_Mode":false,"ROM":""},"PLUGINS":{"OotOnline":{"max_players":4}}}}
+[2019-05-08T16:13:05.880Z] DEBG - (CONSOLE): undefined
+[2019-05-08T16:13:05.971Z] INFO - (Core): ==================================
+[2019-05-08T16:13:05.971Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:13:05.971Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:13:05.971Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:13:05.971Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:13:05.971Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:13:05.971Z] INFO - (Core): ==================================
+[2019-05-08T16:13:06.343Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T16:13:58.504Z] DEBG - (CONSOLE): undefined
+[2019-05-08T16:13:58.592Z] INFO - (Core): ==================================
+[2019-05-08T16:13:58.592Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:13:58.592Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:13:58.592Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:13:58.592Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:13:58.592Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:13:58.592Z] INFO - (Core): ==================================
+[2019-05-08T16:13:58.951Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T16:17:24.802Z] DEBG - (CONSOLE): undefined
+[2019-05-08T16:17:24.892Z] INFO - (Core): ==================================
+[2019-05-08T16:17:24.892Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:17:24.892Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:17:24.892Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:17:24.892Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:17:24.892Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:17:24.892Z] INFO - (Core): ==================================
+[2019-05-08T16:17:25.252Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T16:59:00.380Z] DEBG - (CONSOLE): undefined
+[2019-05-08T16:59:00.799Z] INFO - (Core): ==================================
+[2019-05-08T16:59:00.799Z] INFO - (Core): Oot ModLoader
+[2019-05-08T16:59:00.799Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T16:59:00.799Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T16:59:00.799Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T16:59:00.799Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T16:59:00.799Z] INFO - (Core): ==================================
+[2019-05-08T17:01:07.658Z] DEBG - (CONSOLE): undefined
+[2019-05-08T17:01:08.088Z] INFO - (Core): ==================================
+[2019-05-08T17:01:08.089Z] INFO - (Core): Oot ModLoader
+[2019-05-08T17:01:08.089Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T17:01:08.089Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T17:01:08.089Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T17:01:08.089Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T17:01:08.089Z] INFO - (Core): ==================================
+[2019-05-08T17:01:08.147Z] DEBG - (Client): Setting up client...
+[2019-05-08T17:01:08.147Z] DEBG - (Client): Master Server IP: undefined:undefined
+[2019-05-08T17:01:08.154Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T17:01:08.156Z] DEBG - (Core): C:\Users\dee\Documents\projekte\new_launcher
+[2019-05-08T17:01:08.156Z] DEBG - (Core): Loading plugins...
+[2019-05-08T17:01:08.223Z] DEBG - (PluginManager): Loading payload: aaaOotOnlinePrereqs.payload.
+[2019-05-08T17:01:08.225Z] DEBG - (PluginManager): Loading payload: overlay_table.payload.
+[2019-05-08T17:01:08.225Z] DEBG - (PluginManager): Loading payload: puppet.payload.
+[2019-05-08T17:01:08.230Z] DEBG - (PluginManager): Loading payload: spawn_params.payload.
+[2019-05-08T17:01:08.231Z] DEBG - (PluginManager): Starting preinit phase.
+[2019-05-08T17:01:08.231Z] DEBG - (PluginManager): Plugin Preinit: OotLoaderCore
+[2019-05-08T17:01:08.231Z] DEBG - (PluginManager): {"code":"MODULE_NOT_FOUND"}
+[2019-05-08T17:01:08.232Z] DEBG - (PluginManager): Error: Cannot find module 'C:\Users\dee\Documents\projekte\new_launcher/versions/10/tokens'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at OotLoaderCore.preinit (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\embedded\OotLoaderCore.js:36:18)
+    at onSuccess (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:118:32)
+    at PluginSystem.then (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:90:13)
+    at PluginLoader.load (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:113:14)
+    at Object.start (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotModloader.js:139:13)
+    at Object.<anonymous> (C:\Users\dee\Documents\projekte\new_launcher\src\cli_client.js:7:11)
+[2019-05-08T17:01:38.347Z] DEBG - (CONSOLE): undefined
+[2019-05-08T17:01:38.764Z] INFO - (Core): ==================================
+[2019-05-08T17:01:38.765Z] INFO - (Core): Oot ModLoader
+[2019-05-08T17:01:38.765Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T17:01:38.765Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T17:01:38.765Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T17:01:38.765Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T17:01:38.765Z] INFO - (Core): ==================================
+[2019-05-08T17:01:38.818Z] DEBG - (Client): Setting up client...
+[2019-05-08T17:01:38.818Z] DEBG - (Client): Master Server IP: undefined:undefined
+[2019-05-08T17:01:38.826Z] INFO - (Server): Start MasterServer ...
+[2019-05-08T17:01:38.828Z] DEBG - (Core): C:\Users\dee\Documents\projekte\new_launcher
+[2019-05-08T17:01:38.828Z] DEBG - (Core): Loading plugins...
+[2019-05-08T17:01:38.869Z] DEBG - (PluginManager): Loading payload: aaaOotOnlinePrereqs.payload.
+[2019-05-08T17:01:38.871Z] DEBG - (PluginManager): Loading payload: overlay_table.payload.
+[2019-05-08T17:01:38.871Z] DEBG - (PluginManager): Loading payload: puppet.payload.
+[2019-05-08T17:01:38.878Z] DEBG - (PluginManager): Loading payload: spawn_params.payload.
+[2019-05-08T17:01:38.879Z] DEBG - (PluginManager): Starting preinit phase.
+[2019-05-08T17:01:38.879Z] DEBG - (PluginManager): Plugin Preinit: OotLoaderCore
+[2019-05-08T17:01:38.881Z] DEBG - (Core): Loading en_US.json into object en_US.
+[2019-05-08T17:01:38.882Z] DEBG - (Core): Loading equipment_numbers.json into object equipment_numbers.
+[2019-05-08T17:01:38.882Z] DEBG - (Core): Loading icon_coordinates.json into object icon_coordinates.
+[2019-05-08T17:01:38.883Z] DEBG - (Core): Loading item_numbers.json into object item_numbers.
+[2019-05-08T17:01:38.883Z] DEBG - (Core): Loading scene_numbers.json into object scene_numbers.
+[2019-05-08T17:01:38.883Z] DEBG - (Core): Loading small_key_scenes.json into object small_key_scenes.
+[2019-05-08T17:01:38.884Z] DEBG - (PluginManager): Plugin Preinit: OotOnline
+[2019-05-08T17:01:38.884Z] DEBG - (PluginManager): {}
+[2019-05-08T17:01:38.884Z] DEBG - (PluginManager): TypeError: CONFIG.setPluginDefaultValue is not a function
+    at OotOnline.preinit (C:\Users\dee\Documents\projekte\new_launcher\plugins\OotOnline\OotOnline.js:247:16)
+    at onSuccess (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:118:32)
+    at PluginSystem.then (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:90:13)
+    at PluginLoader.load (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotPluginLoader.js:113:14)
+    at Object.start (C:\Users\dee\Documents\projekte\new_launcher\src\modloader\OotModloader.js:139:13)
+    at Object.<anonymous> (C:\Users\dee\Documents\projekte\new_launcher\src\cli_client.js:7:11)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+[2019-05-08T17:15:09.557Z] DEBG - (CONSOLE): undefined
+[2019-05-08T17:15:09.984Z] INFO - (Core): ==================================
+[2019-05-08T17:15:09.984Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T17:15:09.984Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T17:15:09.984Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T17:15:09.984Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T17:15:09.984Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T17:15:09.984Z] INFO - (Core): ==================================
+[2019-05-08T17:15:10.040Z] DEBG - (Client): Setting up client...
+[2019-05-08T17:15:10.041Z] DEBG - (Client): Master Server IP: 192.99.70.23:8082
+[2019-05-08T17:15:10.070Z] DEBG - (Core): C:\Users\dee\Documents\projekte\new_launcher
+[2019-05-08T17:15:10.070Z] DEBG - (Core): Loading plugins...
+[2019-05-08T17:15:10.075Z] DEBG - (PluginManager): Loading payload: OotLoaderCore.payload.
+[2019-05-08T17:15:10.116Z] DEBG - (PluginManager): Loading payload: aaaOotOnlinePrereqs.payload.
+[2019-05-08T17:15:10.118Z] DEBG - (PluginManager): Loading payload: overlay_table.payload.
+[2019-05-08T17:15:10.119Z] DEBG - (PluginManager): Loading payload: puppet.payload.
+[2019-05-08T17:15:10.125Z] DEBG - (PluginManager): Loading payload: spawn_params.payload.
+[2019-05-08T17:15:10.127Z] DEBG - (PluginManager): Starting preinit phase.
+[2019-05-08T17:15:10.127Z] DEBG - (PluginManager): Plugin Preinit: OotLoaderCore
+[2019-05-08T17:15:10.129Z] DEBG - (Core): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:15:10.129Z] DEBG - (Core): [30,105,27]
+[2019-05-08T17:15:10.129Z] DEBG - (Core): Setting Goron tunic color to #641400.
+[2019-05-08T17:15:10.129Z] DEBG - (Core): [100,20,0]
+[2019-05-08T17:15:10.129Z] DEBG - (Core): Setting Zora tunic color to #003C64.
+[2019-05-08T17:15:10.129Z] DEBG - (Core): [0,60,100]
+[2019-05-08T17:15:10.130Z] DEBG - (Core): Loading en_US.json into object en_US.
+[2019-05-08T17:15:10.132Z] DEBG - (Core): Loading equipment_numbers.json into object equipment_numbers.
+[2019-05-08T17:15:10.133Z] DEBG - (Core): Loading icon_coordinates.json into object icon_coordinates.
+[2019-05-08T17:15:10.134Z] DEBG - (Core): Loading item_numbers.json into object item_numbers.
+[2019-05-08T17:15:10.135Z] DEBG - (Core): Loading scene_numbers.json into object scene_numbers.
+[2019-05-08T17:15:10.136Z] DEBG - (Core): Loading small_key_scenes.json into object small_key_scenes.
+[2019-05-08T17:15:10.137Z] DEBG - (PluginManager): Plugin Preinit: OotOnline
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): [30,105,27]
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): Setting Goron tunic color to #641400.
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): [100,20,0]
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): Setting Zora tunic color to #003C64.
+[2019-05-08T17:15:10.137Z] DEBG - (OotOnline): [0,60,100]
+[2019-05-08T17:15:10.142Z] DEBG - (OotOnline): Starting context at: 80600000
+[2019-05-08T17:15:10.143Z] DEBG - (OotOnline): Spawn params: 80600140
+[2019-05-08T17:15:10.143Z] DEBG - (OotOnline): Command Buffer: 80600090
+[2019-05-08T17:15:10.143Z] DEBG - (PluginManager): Plugin Preinit: SaveSync
+[2019-05-08T17:15:10.164Z] DEBG - (PluginManager): Plugin Preinit: SceneSync
+[2019-05-08T17:15:10.165Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:15:10.165Z] DEBG - (SceneSyncAPI): Loading templates...
+[2019-05-08T17:15:10.168Z] DEBG - (SceneSyncAPI): Loading Behavior.opm.
+[2019-05-08T17:15:10.169Z] DEBG - (SceneSyncAPI): Loading Boss.opm.
+[2019-05-08T17:15:10.171Z] DEBG - (SceneSyncAPI): Loading Conditional.opm.
+[2019-05-08T17:15:10.172Z] DEBG - (SceneSyncAPI): Loading ConditionalKill.opm.
+[2019-05-08T17:15:10.173Z] DEBG - (SceneSyncAPI): Loading Pickupable.opm.
+[2019-05-08T17:15:10.175Z] DEBG - (SceneSyncAPI): Loading Pickupable_revised.opm.
+[2019-05-08T17:15:10.176Z] DEBG - (SceneSyncAPI): Loading Pushable.opm.
+[2019-05-08T17:15:10.177Z] DEBG - (SceneSyncAPI): Loading Rotatable.opm.
+[2019-05-08T17:15:10.179Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:15:10.179Z] DEBG - (SceneSyncAPI): Loading actor data...
+[2019-05-08T17:15:10.180Z] DEBG - (SceneSyncAPI): Loading 2d_bombable_wall.opm.
+[2019-05-08T17:15:10.182Z] DEBG - (SceneSyncAPI): Loading adult_zelda.opm.
+[2019-05-08T17:15:10.183Z] DEBG - (SceneSyncAPI): Loading barinade.opm.
+[2019-05-08T17:15:10.185Z] DEBG - (SceneSyncAPI): Loading Bg_Breakwall.opm.
+[2019-05-08T17:15:10.187Z] DEBG - (SceneSyncAPI): Loading Bg_Ddan_Kd.opm.
+[2019-05-08T17:15:10.188Z] DEBG - (SceneSyncAPI): Loading Bg_Dodoago.opm.
+[2019-05-08T17:15:10.190Z] DEBG - (SceneSyncAPI): Loading Bg_Gate_Shutter.opm.
+[2019-05-08T17:15:10.191Z] DEBG - (SceneSyncAPI): Loading Bg_Haka.opm.
+[2019-05-08T17:15:10.192Z] DEBG - (SceneSyncAPI): Loading Bg_Haka_Zou.opm.
+[2019-05-08T17:15:10.193Z] DEBG - (SceneSyncAPI): Loading Bg_Heavy_Block.opm.
+[2019-05-08T17:15:10.195Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Dalm.opm.
+[2019-05-08T17:15:10.196Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Kowarerukabe.opm.
+[2019-05-08T17:15:10.197Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Sima.opm.
+[2019-05-08T17:15:10.198Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Objects.opm.
+[2019-05-08T17:15:10.199Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Shelter.opm.
+[2019-05-08T17:15:10.201Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Turara.opm.
+[2019-05-08T17:15:10.202Z] DEBG - (SceneSyncAPI): Loading Bg_Mizu_Bwall.opm.
+[2019-05-08T17:15:10.203Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Bigst.opm.
+[2019-05-08T17:15:10.204Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe.opm.
+[2019-05-08T17:15:10.206Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_2.opm.
+[2019-05-08T17:15:10.207Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_3.opm.
+[2019-05-08T17:15:10.208Z] DEBG - (SceneSyncAPI): Loading Bg_Spot02_Objects.opm.
+[2019-05-08T17:15:10.209Z] DEBG - (SceneSyncAPI): Loading Bg_Spot15_Rrbox.opm.
+[2019-05-08T17:15:10.210Z] DEBG - (SceneSyncAPI): Loading Bg_Spot16_Bombstone.opm.
+[2019-05-08T17:15:10.212Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Maruta.opm.
+[2019-05-08T17:15:10.213Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp.opm.
+[2019-05-08T17:15:10.214Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x130.opm.
+[2019-05-08T17:15:10.215Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x3.opm.
+[2019-05-08T17:15:10.217Z] DEBG - (SceneSyncAPI): Loading bongo_bongo.opm.
+[2019-05-08T17:15:10.218Z] DEBG - (SceneSyncAPI): Loading cobra_statue.opm.
+[2019-05-08T17:15:10.220Z] DEBG - (SceneSyncAPI): Loading Demo_Kankyo.opm.
+[2019-05-08T17:15:10.221Z] DEBG - (SceneSyncAPI): Loading door_of_time_collision.opm.
+[2019-05-08T17:15:10.222Z] DEBG - (SceneSyncAPI): Loading En_Am.opm.
+[2019-05-08T17:15:10.224Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x01F9.opm.
+[2019-05-08T17:15:10.225Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x020C.opm.
+[2019-05-08T17:15:10.227Z] DEBG - (SceneSyncAPI): Loading En_Box.opm.
+[2019-05-08T17:15:10.228Z] DEBG - (SceneSyncAPI): Loading En_Bubble.opm.
+[2019-05-08T17:15:10.229Z] DEBG - (SceneSyncAPI): Loading En_Door.opm.
+[2019-05-08T17:15:10.231Z] DEBG - (SceneSyncAPI): Loading En_Item00.opm.
+[2019-05-08T17:15:10.232Z] DEBG - (SceneSyncAPI): Loading En_Item00_0x11A.opm.
+[2019-05-08T17:15:10.233Z] DEBG - (SceneSyncAPI): Loading En_Kz.opm.
+[2019-05-08T17:15:10.234Z] DEBG - (SceneSyncAPI): Loading En_Sw.opm.
+[2019-05-08T17:15:10.235Z] DEBG - (SceneSyncAPI): Loading Ganon_Trials_Magic_Barrier.opm.
+[2019-05-08T17:15:10.237Z] DEBG - (SceneSyncAPI): Loading gohma.opm.
+[2019-05-08T17:15:10.238Z] DEBG - (SceneSyncAPI): Loading king_d.opm.
+[2019-05-08T17:15:10.239Z] DEBG - (SceneSyncAPI): Loading locked_doors_sliding.opm.
+[2019-05-08T17:15:10.241Z] DEBG - (SceneSyncAPI): Loading mido.opm.
+[2019-05-08T17:15:10.242Z] DEBG - (SceneSyncAPI): Loading mido_coords.opm.
+[2019-05-08T17:15:10.243Z] DEBG - (SceneSyncAPI): Loading morpha.opm.
+[2019-05-08T17:15:10.244Z] DEBG - (SceneSyncAPI): Loading Obj_Bombiwa.opm.
+[2019-05-08T17:15:10.246Z] DEBG - (SceneSyncAPI): Loading Obj_Kibako2.opm.
+[2019-05-08T17:15:10.247Z] DEBG - (SceneSyncAPI): Loading Obj_Lift.opm.
+[2019-05-08T17:15:10.248Z] DEBG - (SceneSyncAPI): Loading Obj_Oshihiki.opm.
+[2019-05-08T17:15:10.249Z] DEBG - (SceneSyncAPI): Loading Obj_Switch.opm.
+[2019-05-08T17:15:10.251Z] DEBG - (SceneSyncAPI): Loading Obj_Switch_03.opm.
+[2019-05-08T17:15:10.252Z] DEBG - (SceneSyncAPI): Loading Obj_Timeblock.opm.
+[2019-05-08T17:15:10.253Z] DEBG - (SceneSyncAPI): Loading phantom_ganon.opm.
+[2019-05-08T17:15:10.254Z] DEBG - (SceneSyncAPI): Loading twinrova.opm.
+[2019-05-08T17:15:10.256Z] DEBG - (SceneSyncAPI): Loading volvagia.opm.
+[2019-05-08T17:15:10.257Z] DEBG - (PluginManager): Starting init phase.
+[2019-05-08T17:15:10.257Z] DEBG - (PluginManager): Plugin Init: OotLoaderCore
+[2019-05-08T17:15:10.257Z] DEBG - (PluginManager): Plugin Init: OotOnline
+[2019-05-08T17:15:10.257Z] DEBG - (PluginManager): Plugin Init: SaveSync
+[2019-05-08T17:15:10.258Z] DEBG - (PluginManager): Plugin Init: SceneSync
+[2019-05-08T17:15:10.258Z] DEBG - (PluginManager): Starting postinit phase.
+[2019-05-08T17:15:10.258Z] DEBG - (PluginManager): Plugin Postinit: OotLoaderCore
+[2019-05-08T17:15:10.258Z] DEBG - (PluginManager): Plugin Postinit: OotOnline
+[2019-05-08T17:15:10.259Z] DEBG - (OotOnline): Allocated puppet at: 80600094
+[2019-05-08T17:15:10.259Z] DEBG - (OotOnline): Allocated puppet at: 8060009C
+[2019-05-08T17:15:10.259Z] DEBG - (OotOnline): Allocated puppet at: 806000A4
+[2019-05-08T17:15:10.259Z] DEBG - (PluginManager): Plugin Postinit: SaveSync
+[2019-05-08T17:15:10.259Z] DEBG - (PluginManager): Plugin Postinit: SceneSync
+[2019-05-08T17:15:10.259Z] DEBG - (PluginManager): Plugin loading complete.
+[2019-05-08T17:15:10.278Z] DEBG - (ClientUDP): listening 0.0.0.0:51294
+[2019-05-08T17:15:10.278Z] DEBG - (BizHawkTCP): Awaiting connection. Please load the .lua script in Bizhawk.
+[2019-05-08T17:15:10.768Z] DEBG - (Client): Your version does not match the server!
+[2019-05-08T17:15:10.768Z] DEBG - (Client): {"client":"@major@.@minor@.@buildNumber@.@release_type@","server":["1","1","0","BETA"]}
+[2019-05-08T17:16:14.472Z] DEBG - (CONSOLE): undefined
+[2019-05-08T17:16:14.908Z] INFO - (Core): ==================================
+[2019-05-08T17:16:14.908Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T17:16:14.909Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T17:16:14.909Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T17:16:14.909Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T17:16:14.909Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T17:16:14.909Z] INFO - (Core): ==================================
+[2019-05-08T17:16:14.965Z] DEBG - (Client): Setting up client...
+[2019-05-08T17:16:14.965Z] DEBG - (Client): Master Server IP: 192.99.70.23:8082
+[2019-05-08T17:16:14.991Z] DEBG - (Core): C:\Users\dee\Documents\projekte\new_launcher
+[2019-05-08T17:16:14.992Z] DEBG - (Core): Loading plugins...
+[2019-05-08T17:16:14.996Z] DEBG - (PluginManager): Loading payload: OotLoaderCore.payload.
+[2019-05-08T17:16:15.034Z] DEBG - (PluginManager): Loading payload: aaaOotOnlinePrereqs.payload.
+[2019-05-08T17:16:15.036Z] DEBG - (PluginManager): Loading payload: overlay_table.payload.
+[2019-05-08T17:16:15.036Z] DEBG - (PluginManager): Loading payload: puppet.payload.
+[2019-05-08T17:16:15.043Z] DEBG - (PluginManager): Loading payload: spawn_params.payload.
+[2019-05-08T17:16:15.045Z] DEBG - (PluginManager): Starting preinit phase.
+[2019-05-08T17:16:15.045Z] DEBG - (PluginManager): Plugin Preinit: OotLoaderCore
+[2019-05-08T17:16:15.046Z] DEBG - (Core): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:16:15.046Z] DEBG - (Core): [30,105,27]
+[2019-05-08T17:16:15.046Z] DEBG - (Core): Setting Goron tunic color to #641400.
+[2019-05-08T17:16:15.046Z] DEBG - (Core): [100,20,0]
+[2019-05-08T17:16:15.046Z] DEBG - (Core): Setting Zora tunic color to #003C64.
+[2019-05-08T17:16:15.047Z] DEBG - (Core): [0,60,100]
+[2019-05-08T17:16:15.047Z] DEBG - (Core): Loading en_US.json into object en_US.
+[2019-05-08T17:16:15.050Z] DEBG - (Core): Loading equipment_numbers.json into object equipment_numbers.
+[2019-05-08T17:16:15.051Z] DEBG - (Core): Loading icon_coordinates.json into object icon_coordinates.
+[2019-05-08T17:16:15.051Z] DEBG - (Core): Loading item_numbers.json into object item_numbers.
+[2019-05-08T17:16:15.051Z] DEBG - (Core): Loading scene_numbers.json into object scene_numbers.
+[2019-05-08T17:16:15.052Z] DEBG - (Core): Loading small_key_scenes.json into object small_key_scenes.
+[2019-05-08T17:16:15.052Z] DEBG - (PluginManager): Plugin Preinit: OotOnline
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): [30,105,27]
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): Setting Goron tunic color to #641400.
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): [100,20,0]
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): Setting Zora tunic color to #003C64.
+[2019-05-08T17:16:15.053Z] DEBG - (OotOnline): [0,60,100]
+[2019-05-08T17:16:15.054Z] DEBG - (OotOnline): Starting context at: 80600000
+[2019-05-08T17:16:15.054Z] DEBG - (OotOnline): Spawn params: 80600140
+[2019-05-08T17:16:15.054Z] DEBG - (OotOnline): Command Buffer: 80600090
+[2019-05-08T17:16:15.055Z] DEBG - (PluginManager): Plugin Preinit: SaveSync
+[2019-05-08T17:16:15.062Z] DEBG - (PluginManager): Plugin Preinit: SceneSync
+[2019-05-08T17:16:15.062Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:16:15.062Z] DEBG - (SceneSyncAPI): Loading templates...
+[2019-05-08T17:16:15.063Z] DEBG - (SceneSyncAPI): Loading Behavior.opm.
+[2019-05-08T17:16:15.064Z] DEBG - (SceneSyncAPI): Loading Boss.opm.
+[2019-05-08T17:16:15.065Z] DEBG - (SceneSyncAPI): Loading Conditional.opm.
+[2019-05-08T17:16:15.065Z] DEBG - (SceneSyncAPI): Loading ConditionalKill.opm.
+[2019-05-08T17:16:15.066Z] DEBG - (SceneSyncAPI): Loading Pickupable.opm.
+[2019-05-08T17:16:15.066Z] DEBG - (SceneSyncAPI): Loading Pickupable_revised.opm.
+[2019-05-08T17:16:15.067Z] DEBG - (SceneSyncAPI): Loading Pushable.opm.
+[2019-05-08T17:16:15.068Z] DEBG - (SceneSyncAPI): Loading Rotatable.opm.
+[2019-05-08T17:16:15.068Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:16:15.068Z] DEBG - (SceneSyncAPI): Loading actor data...
+[2019-05-08T17:16:15.069Z] DEBG - (SceneSyncAPI): Loading 2d_bombable_wall.opm.
+[2019-05-08T17:16:15.069Z] DEBG - (SceneSyncAPI): Loading adult_zelda.opm.
+[2019-05-08T17:16:15.070Z] DEBG - (SceneSyncAPI): Loading barinade.opm.
+[2019-05-08T17:16:15.071Z] DEBG - (SceneSyncAPI): Loading Bg_Breakwall.opm.
+[2019-05-08T17:16:15.071Z] DEBG - (SceneSyncAPI): Loading Bg_Ddan_Kd.opm.
+[2019-05-08T17:16:15.072Z] DEBG - (SceneSyncAPI): Loading Bg_Dodoago.opm.
+[2019-05-08T17:16:15.073Z] DEBG - (SceneSyncAPI): Loading Bg_Gate_Shutter.opm.
+[2019-05-08T17:16:15.073Z] DEBG - (SceneSyncAPI): Loading Bg_Haka.opm.
+[2019-05-08T17:16:15.074Z] DEBG - (SceneSyncAPI): Loading Bg_Haka_Zou.opm.
+[2019-05-08T17:16:15.074Z] DEBG - (SceneSyncAPI): Loading Bg_Heavy_Block.opm.
+[2019-05-08T17:16:15.075Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Dalm.opm.
+[2019-05-08T17:16:15.076Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Kowarerukabe.opm.
+[2019-05-08T17:16:15.076Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Sima.opm.
+[2019-05-08T17:16:15.077Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Objects.opm.
+[2019-05-08T17:16:15.077Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Shelter.opm.
+[2019-05-08T17:16:15.078Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Turara.opm.
+[2019-05-08T17:16:15.078Z] DEBG - (SceneSyncAPI): Loading Bg_Mizu_Bwall.opm.
+[2019-05-08T17:16:15.079Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Bigst.opm.
+[2019-05-08T17:16:15.079Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe.opm.
+[2019-05-08T17:16:15.080Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_2.opm.
+[2019-05-08T17:16:15.080Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_3.opm.
+[2019-05-08T17:16:15.081Z] DEBG - (SceneSyncAPI): Loading Bg_Spot02_Objects.opm.
+[2019-05-08T17:16:15.081Z] DEBG - (SceneSyncAPI): Loading Bg_Spot15_Rrbox.opm.
+[2019-05-08T17:16:15.082Z] DEBG - (SceneSyncAPI): Loading Bg_Spot16_Bombstone.opm.
+[2019-05-08T17:16:15.083Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Maruta.opm.
+[2019-05-08T17:16:15.083Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp.opm.
+[2019-05-08T17:16:15.084Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x130.opm.
+[2019-05-08T17:16:15.084Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x3.opm.
+[2019-05-08T17:16:15.085Z] DEBG - (SceneSyncAPI): Loading bongo_bongo.opm.
+[2019-05-08T17:16:15.085Z] DEBG - (SceneSyncAPI): Loading cobra_statue.opm.
+[2019-05-08T17:16:15.086Z] DEBG - (SceneSyncAPI): Loading Demo_Kankyo.opm.
+[2019-05-08T17:16:15.086Z] DEBG - (SceneSyncAPI): Loading door_of_time_collision.opm.
+[2019-05-08T17:16:15.087Z] DEBG - (SceneSyncAPI): Loading En_Am.opm.
+[2019-05-08T17:16:15.088Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x01F9.opm.
+[2019-05-08T17:16:15.089Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x020C.opm.
+[2019-05-08T17:16:15.089Z] DEBG - (SceneSyncAPI): Loading En_Box.opm.
+[2019-05-08T17:16:15.090Z] DEBG - (SceneSyncAPI): Loading En_Bubble.opm.
+[2019-05-08T17:16:15.091Z] DEBG - (SceneSyncAPI): Loading En_Door.opm.
+[2019-05-08T17:16:15.092Z] DEBG - (SceneSyncAPI): Loading En_Item00.opm.
+[2019-05-08T17:16:15.093Z] DEBG - (SceneSyncAPI): Loading En_Item00_0x11A.opm.
+[2019-05-08T17:16:15.094Z] DEBG - (SceneSyncAPI): Loading En_Kz.opm.
+[2019-05-08T17:16:15.094Z] DEBG - (SceneSyncAPI): Loading En_Sw.opm.
+[2019-05-08T17:16:15.095Z] DEBG - (SceneSyncAPI): Loading Ganon_Trials_Magic_Barrier.opm.
+[2019-05-08T17:16:15.096Z] DEBG - (SceneSyncAPI): Loading gohma.opm.
+[2019-05-08T17:16:15.096Z] DEBG - (SceneSyncAPI): Loading king_d.opm.
+[2019-05-08T17:16:15.097Z] DEBG - (SceneSyncAPI): Loading locked_doors_sliding.opm.
+[2019-05-08T17:16:15.097Z] DEBG - (SceneSyncAPI): Loading mido.opm.
+[2019-05-08T17:16:15.098Z] DEBG - (SceneSyncAPI): Loading mido_coords.opm.
+[2019-05-08T17:16:15.098Z] DEBG - (SceneSyncAPI): Loading morpha.opm.
+[2019-05-08T17:16:15.099Z] DEBG - (SceneSyncAPI): Loading Obj_Bombiwa.opm.
+[2019-05-08T17:16:15.100Z] DEBG - (SceneSyncAPI): Loading Obj_Kibako2.opm.
+[2019-05-08T17:16:15.100Z] DEBG - (SceneSyncAPI): Loading Obj_Lift.opm.
+[2019-05-08T17:16:15.101Z] DEBG - (SceneSyncAPI): Loading Obj_Oshihiki.opm.
+[2019-05-08T17:16:15.101Z] DEBG - (SceneSyncAPI): Loading Obj_Switch.opm.
+[2019-05-08T17:16:15.102Z] DEBG - (SceneSyncAPI): Loading Obj_Switch_03.opm.
+[2019-05-08T17:16:15.102Z] DEBG - (SceneSyncAPI): Loading Obj_Timeblock.opm.
+[2019-05-08T17:16:15.103Z] DEBG - (SceneSyncAPI): Loading phantom_ganon.opm.
+[2019-05-08T17:16:15.103Z] DEBG - (SceneSyncAPI): Loading twinrova.opm.
+[2019-05-08T17:16:15.104Z] DEBG - (SceneSyncAPI): Loading volvagia.opm.
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Starting init phase.
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Init: OotLoaderCore
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Init: OotOnline
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Init: SaveSync
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Init: SceneSync
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Starting postinit phase.
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Postinit: OotLoaderCore
+[2019-05-08T17:16:15.105Z] DEBG - (PluginManager): Plugin Postinit: OotOnline
+[2019-05-08T17:16:15.106Z] DEBG - (OotOnline): Allocated puppet at: 80600094
+[2019-05-08T17:16:15.106Z] DEBG - (OotOnline): Allocated puppet at: 8060009C
+[2019-05-08T17:16:15.106Z] DEBG - (OotOnline): Allocated puppet at: 806000A4
+[2019-05-08T17:16:15.106Z] DEBG - (PluginManager): Plugin Postinit: SaveSync
+[2019-05-08T17:16:15.106Z] DEBG - (PluginManager): Plugin Postinit: SceneSync
+[2019-05-08T17:16:15.106Z] DEBG - (PluginManager): Plugin loading complete.
+[2019-05-08T17:16:15.123Z] DEBG - (ClientUDP): listening 0.0.0.0:63883
+[2019-05-08T17:16:15.123Z] DEBG - (BizHawkTCP): Awaiting connection. Please load the .lua script in Bizhawk.
+[2019-05-08T17:16:15.601Z] DEBG - (Client): Your version does not match the server!
+[2019-05-08T17:16:15.601Z] DEBG - (Client): {"client":"@major@.@minor@.@buildNumber@.@release_type@","server":["1","1","0","BETA"]}
+[2019-05-08T17:17:42.243Z] DEBG - (CONSOLE): undefined
+[2019-05-08T17:17:42.652Z] INFO - (Core): ==================================
+[2019-05-08T17:17:42.652Z] INFO - (Core): Oot Mod Loader
+[2019-05-08T17:17:42.652Z] INFO - (Core): v@major@.@minor@.@buildNumber@.@release_type@ loading...
+[2019-05-08T17:17:42.652Z] INFO - (Core): Coded by: denoflions, MelonSpeedruns, Ideka, and glank
+[2019-05-08T17:17:42.652Z] INFO - (Core): Testers: Psi-Hate.
+[2019-05-08T17:17:42.652Z] INFO - (Core): Notification icons drawn by: Nikki.
+[2019-05-08T17:17:42.652Z] INFO - (Core): ==================================
+[2019-05-08T17:17:42.705Z] DEBG - (Client): Setting up client...
+[2019-05-08T17:17:42.705Z] DEBG - (Client): Master Server IP: 192.99.70.23:8082
+[2019-05-08T17:17:42.732Z] DEBG - (Core): C:\Users\dee\Documents\projekte\new_launcher
+[2019-05-08T17:17:42.732Z] DEBG - (Core): Loading plugins...
+[2019-05-08T17:17:42.736Z] DEBG - (PluginManager): Loading payload: OotLoaderCore.payload.
+[2019-05-08T17:17:42.775Z] DEBG - (PluginManager): Loading payload: aaaOotOnlinePrereqs.payload.
+[2019-05-08T17:17:42.777Z] DEBG - (PluginManager): Loading payload: overlay_table.payload.
+[2019-05-08T17:17:42.777Z] DEBG - (PluginManager): Loading payload: puppet.payload.
+[2019-05-08T17:17:42.781Z] DEBG - (PluginManager): Loading payload: spawn_params.payload.
+[2019-05-08T17:17:42.782Z] DEBG - (PluginManager): Starting preinit phase.
+[2019-05-08T17:17:42.782Z] DEBG - (PluginManager): Plugin Preinit: OotLoaderCore
+[2019-05-08T17:17:42.783Z] DEBG - (Core): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:17:42.783Z] DEBG - (Core): [30,105,27]
+[2019-05-08T17:17:42.783Z] DEBG - (Core): Setting Goron tunic color to #641400.
+[2019-05-08T17:17:42.783Z] DEBG - (Core): [100,20,0]
+[2019-05-08T17:17:42.783Z] DEBG - (Core): Setting Zora tunic color to #003C64.
+[2019-05-08T17:17:42.783Z] DEBG - (Core): [0,60,100]
+[2019-05-08T17:17:42.784Z] DEBG - (Core): Loading en_US.json into object en_US.
+[2019-05-08T17:17:42.785Z] DEBG - (Core): Loading equipment_numbers.json into object equipment_numbers.
+[2019-05-08T17:17:42.785Z] DEBG - (Core): Loading icon_coordinates.json into object icon_coordinates.
+[2019-05-08T17:17:42.785Z] DEBG - (Core): Loading item_numbers.json into object item_numbers.
+[2019-05-08T17:17:42.785Z] DEBG - (Core): Loading scene_numbers.json into object scene_numbers.
+[2019-05-08T17:17:42.786Z] DEBG - (Core): Loading small_key_scenes.json into object small_key_scenes.
+[2019-05-08T17:17:42.786Z] DEBG - (PluginManager): Plugin Preinit: OotOnline
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): Setting Kokiri tunic color to #1E691B.
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): [30,105,27]
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): Setting Goron tunic color to #641400.
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): [100,20,0]
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): Setting Zora tunic color to #003C64.
+[2019-05-08T17:17:42.787Z] DEBG - (OotOnline): [0,60,100]
+[2019-05-08T17:17:42.788Z] DEBG - (OotOnline): Starting context at: 80600000
+[2019-05-08T17:17:42.788Z] DEBG - (OotOnline): Spawn params: 80600140
+[2019-05-08T17:17:42.788Z] DEBG - (OotOnline): Command Buffer: 80600090
+[2019-05-08T17:17:42.789Z] DEBG - (PluginManager): Plugin Preinit: SaveSync
+[2019-05-08T17:17:42.797Z] DEBG - (PluginManager): Plugin Preinit: SceneSync
+[2019-05-08T17:17:42.797Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:17:42.797Z] DEBG - (SceneSyncAPI): Loading templates...
+[2019-05-08T17:17:42.798Z] DEBG - (SceneSyncAPI): Loading Behavior.opm.
+[2019-05-08T17:17:42.799Z] DEBG - (SceneSyncAPI): Loading Boss.opm.
+[2019-05-08T17:17:42.799Z] DEBG - (SceneSyncAPI): Loading Conditional.opm.
+[2019-05-08T17:17:42.800Z] DEBG - (SceneSyncAPI): Loading ConditionalKill.opm.
+[2019-05-08T17:17:42.800Z] DEBG - (SceneSyncAPI): Loading Pickupable.opm.
+[2019-05-08T17:17:42.801Z] DEBG - (SceneSyncAPI): Loading Pickupable_revised.opm.
+[2019-05-08T17:17:42.802Z] DEBG - (SceneSyncAPI): Loading Pushable.opm.
+[2019-05-08T17:17:42.802Z] DEBG - (SceneSyncAPI): Loading Rotatable.opm.
+[2019-05-08T17:17:42.803Z] DEBG - (SceneSyncAPI): --------------------
+[2019-05-08T17:17:42.803Z] DEBG - (SceneSyncAPI): Loading actor data...
+[2019-05-08T17:17:42.803Z] DEBG - (SceneSyncAPI): Loading 2d_bombable_wall.opm.
+[2019-05-08T17:17:42.804Z] DEBG - (SceneSyncAPI): Loading adult_zelda.opm.
+[2019-05-08T17:17:42.805Z] DEBG - (SceneSyncAPI): Loading barinade.opm.
+[2019-05-08T17:17:42.805Z] DEBG - (SceneSyncAPI): Loading Bg_Breakwall.opm.
+[2019-05-08T17:17:42.806Z] DEBG - (SceneSyncAPI): Loading Bg_Ddan_Kd.opm.
+[2019-05-08T17:17:42.806Z] DEBG - (SceneSyncAPI): Loading Bg_Dodoago.opm.
+[2019-05-08T17:17:42.807Z] DEBG - (SceneSyncAPI): Loading Bg_Gate_Shutter.opm.
+[2019-05-08T17:17:42.808Z] DEBG - (SceneSyncAPI): Loading Bg_Haka.opm.
+[2019-05-08T17:17:42.808Z] DEBG - (SceneSyncAPI): Loading Bg_Haka_Zou.opm.
+[2019-05-08T17:17:42.809Z] DEBG - (SceneSyncAPI): Loading Bg_Heavy_Block.opm.
+[2019-05-08T17:17:42.809Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Dalm.opm.
+[2019-05-08T17:17:42.810Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Kowarerukabe.opm.
+[2019-05-08T17:17:42.810Z] DEBG - (SceneSyncAPI): Loading Bg_Hidan_Sima.opm.
+[2019-05-08T17:17:42.811Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Objects.opm.
+[2019-05-08T17:17:42.812Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Shelter.opm.
+[2019-05-08T17:17:42.812Z] DEBG - (SceneSyncAPI): Loading Bg_Ice_Turara.opm.
+[2019-05-08T17:17:42.813Z] DEBG - (SceneSyncAPI): Loading Bg_Mizu_Bwall.opm.
+[2019-05-08T17:17:42.813Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Bigst.opm.
+[2019-05-08T17:17:42.814Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe.opm.
+[2019-05-08T17:17:42.814Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_2.opm.
+[2019-05-08T17:17:42.815Z] DEBG - (SceneSyncAPI): Loading Bg_Mori_Kaitenkabe_3.opm.
+[2019-05-08T17:17:42.815Z] DEBG - (SceneSyncAPI): Loading Bg_Spot02_Objects.opm.
+[2019-05-08T17:17:42.816Z] DEBG - (SceneSyncAPI): Loading Bg_Spot15_Rrbox.opm.
+[2019-05-08T17:17:42.816Z] DEBG - (SceneSyncAPI): Loading Bg_Spot16_Bombstone.opm.
+[2019-05-08T17:17:42.817Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Maruta.opm.
+[2019-05-08T17:17:42.817Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp.opm.
+[2019-05-08T17:17:42.818Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x130.opm.
+[2019-05-08T17:17:42.818Z] DEBG - (SceneSyncAPI): Loading Bg_Ydan_Sp_0x3.opm.
+[2019-05-08T17:17:42.819Z] DEBG - (SceneSyncAPI): Loading bongo_bongo.opm.
+[2019-05-08T17:17:42.820Z] DEBG - (SceneSyncAPI): Loading cobra_statue.opm.
+[2019-05-08T17:17:42.820Z] DEBG - (SceneSyncAPI): Loading Demo_Kankyo.opm.
+[2019-05-08T17:17:42.821Z] DEBG - (SceneSyncAPI): Loading door_of_time_collision.opm.
+[2019-05-08T17:17:42.821Z] DEBG - (SceneSyncAPI): Loading En_Am.opm.
+[2019-05-08T17:17:42.822Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x01F9.opm.
+[2019-05-08T17:17:42.823Z] DEBG - (SceneSyncAPI): Loading En_Bombf_0x020C.opm.
+[2019-05-08T17:17:42.823Z] DEBG - (SceneSyncAPI): Loading En_Box.opm.
+[2019-05-08T17:17:42.824Z] DEBG - (SceneSyncAPI): Loading En_Bubble.opm.
+[2019-05-08T17:17:42.825Z] DEBG - (SceneSyncAPI): Loading En_Door.opm.
+[2019-05-08T17:17:42.825Z] DEBG - (SceneSyncAPI): Loading En_Item00.opm.
+[2019-05-08T17:17:42.826Z] DEBG - (SceneSyncAPI): Loading En_Item00_0x11A.opm.
+[2019-05-08T17:17:42.826Z] DEBG - (SceneSyncAPI): Loading En_Kz.opm.
+[2019-05-08T17:17:42.827Z] DEBG - (SceneSyncAPI): Loading En_Sw.opm.
+[2019-05-08T17:17:42.827Z] DEBG - (SceneSyncAPI): Loading Ganon_Trials_Magic_Barrier.opm.
+[2019-05-08T17:17:42.828Z] DEBG - (SceneSyncAPI): Loading gohma.opm.
+[2019-05-08T17:17:42.829Z] DEBG - (SceneSyncAPI): Loading king_d.opm.
+[2019-05-08T17:17:42.833Z] DEBG - (SceneSyncAPI): Loading locked_doors_sliding.opm.
+[2019-05-08T17:17:42.833Z] DEBG - (SceneSyncAPI): Loading mido.opm.
+[2019-05-08T17:17:42.834Z] DEBG - (SceneSyncAPI): Loading mido_coords.opm.
+[2019-05-08T17:17:42.834Z] DEBG - (SceneSyncAPI): Loading morpha.opm.
+[2019-05-08T17:17:42.835Z] DEBG - (SceneSyncAPI): Loading Obj_Bombiwa.opm.
+[2019-05-08T17:17:42.835Z] DEBG - (SceneSyncAPI): Loading Obj_Kibako2.opm.
+[2019-05-08T17:17:42.836Z] DEBG - (SceneSyncAPI): Loading Obj_Lift.opm.
+[2019-05-08T17:17:42.837Z] DEBG - (SceneSyncAPI): Loading Obj_Oshihiki.opm.
+[2019-05-08T17:17:42.837Z] DEBG - (SceneSyncAPI): Loading Obj_Switch.opm.
+[2019-05-08T17:17:42.838Z] DEBG - (SceneSyncAPI): Loading Obj_Switch_03.opm.
+[2019-05-08T17:17:42.838Z] DEBG - (SceneSyncAPI): Loading Obj_Timeblock.opm.
+[2019-05-08T17:17:42.839Z] DEBG - (SceneSyncAPI): Loading phantom_ganon.opm.
+[2019-05-08T17:17:42.839Z] DEBG - (SceneSyncAPI): Loading twinrova.opm.
+[2019-05-08T17:17:42.840Z] DEBG - (SceneSyncAPI): Loading volvagia.opm.
+[2019-05-08T17:17:42.840Z] DEBG - (PluginManager): Starting init phase.
+[2019-05-08T17:17:42.840Z] DEBG - (PluginManager): Plugin Init: OotLoaderCore
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Plugin Init: OotOnline
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Plugin Init: SaveSync
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Plugin Init: SceneSync
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Starting postinit phase.
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Plugin Postinit: OotLoaderCore
+[2019-05-08T17:17:42.841Z] DEBG - (PluginManager): Plugin Postinit: OotOnline
+[2019-05-08T17:17:42.842Z] DEBG - (OotOnline): Allocated puppet at: 80600094
+[2019-05-08T17:17:42.842Z] DEBG - (OotOnline): Allocated puppet at: 8060009C
+[2019-05-08T17:17:42.842Z] DEBG - (OotOnline): Allocated puppet at: 806000A4
+[2019-05-08T17:17:42.842Z] DEBG - (PluginManager): Plugin Postinit: SaveSync
+[2019-05-08T17:17:42.842Z] DEBG - (PluginManager): Plugin Postinit: SceneSync
+[2019-05-08T17:17:42.842Z] DEBG - (PluginManager): Plugin loading complete.
+[2019-05-08T17:17:42.860Z] DEBG - (ClientUDP): listening 0.0.0.0:61520
+[2019-05-08T17:17:42.860Z] DEBG - (BizHawkTCP): Awaiting connection. Please load the .lua script in Bizhawk.
+[2019-05-08T17:17:43.349Z] DEBG - (Client): Your version does not match the server!
+[2019-05-08T17:17:43.349Z] DEBG - (Client): {"client":"@major@.@minor@.@buildNumber@.@release_type@","server":["1","1","0","BETA"]}
+

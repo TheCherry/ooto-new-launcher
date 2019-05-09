@@ -1,0 +1,31 @@
+{
+  "SERVER": {
+    "master_server_ip": "na.oot-online.org",
+    "master_server_port": "8082",
+    "isMaster": false
+  },
+  "CLIENT": {
+    "isClient": true,
+    "nickname": "",
+    "game_room": "",
+    "game_password": "",
+    "tunic_colors": {
+      "kokiri": "#ffffff",
+      "goron": "#ff8000",
+      "zora": "#060606"
+    },
+    "tunic_colors_enabled": true,
+    "patchFile": "",
+    "localPort": {
+      "tcp": 1337,
+      "udp": 60001
+    },
+    "TCP_Mode": false,
+    "ROM": ""
+  },
+  "PLUGINS": {
+    "OotOnline": {
+      "max_players": 4
+    }
+  }
+}
