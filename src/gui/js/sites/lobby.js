@@ -3,14 +3,15 @@ class Lobby extends BaseSite {
     super();
     this.html_file = "lobby.html"
     this.cache = {}; // { "ip": { "last_update": timestamp, "data": {} }}
+    this.minimum_loading_time = 500; // we simulate a longer loading time, else the user thinks nothing happend
     this.default_servers = {
-      "North America (CA)": "na.oot-online.org",
-      "Europe (DE)": "eu.oot-online.org"
+      "North America (CA)": { ip: "na.oot-online.org", gameport: 8082, lobbyport: 8083 },
+      "Europe (DE)": { ip: "eu.oot-online.org", gameport: 8082, lobbyport: 8083 }
     };
     this.user_servers = {
-
-    };
-    this.current_server = {name: "North America (CA)", ip: "na.oot-online.org"};
+      "OwnServerTest": { ip: "localhost", gameport: 8082, lobbyport: 8083 }
+    }; // loaded from CFG ...
+    this.current_server = {name: "North America (CA)", ip: "na.oot-online.org", gameport: 8082, lobbyport: 8083 }; // loaded from CFG
   }
 
   onload(){
@@ -19,7 +20,7 @@ class Lobby extends BaseSite {
   onenter(){
     this.createTable();
     this.refreshServers();
-    this.refreshLobbyList(this.current_server.ip);
+    this.refreshLobbyList(this.current_server.ip, this.current_server.lobbyport);
     $("#btn-join").click(this.joinWindow);
     $("#btn-create").click(this.createWindow);
   }
@@ -28,7 +29,7 @@ class Lobby extends BaseSite {
     var printIcon = function(cell, formatterParams, onRendered){ //plain text value
        return "<button class=\"btn btn-sm btn-primary\" >JOIN</button> <button class=\"btn btn-sm btn-primary\">INFO</button>";
     };
-    this.table = new Tabulator("#example-table", {
+    this.table = new Tabulator("#table-lobby", {
       //height:"500px",
       height:450,
       layout:"fitColumns",
@@ -47,6 +48,19 @@ class Lobby extends BaseSite {
         {title:"Actions", field:"icons", formatter:printIcon, align:"center", cellClick:function(e, cell){alert("Printing row data for: " + cell.getRow().getData().name)}}
       ]
     });
+    function customFilter(data, filterValue){
+      if(typeof(filterValue) !== "string") {return true};
+      if(data.description === undefined){
+        data.description = "";
+      }
+      return data.name.toLowerCase().includes(filterValue.toLowerCase()) || data.description.toLowerCase().includes(filterValue.toLowerCase());
+    }
+
+    function updateFilter(){
+      this.table.setFilter(customFilter, $("#filter-value").val());
+    }
+
+    $("#filter-value").keyup(updateFilter.bind(this));
   }
 
   refreshServers(){
@@ -62,7 +76,7 @@ class Lobby extends BaseSite {
     if(Object.keys(this.user_servers).length !== 0){
       $("#server-list").append($("<div/>", { class: "dropdown-divider" }));
       for(let item in this.user_servers){
-        $("#server-list").append(this.createServerItem(item, this.default_servers[item], function(){
+        $("#server-list").append(this.createServerItem(item, this.user_servers[item], function(){
           // display the edit and delete buttons, if it is a user server
           $("#server-edit").show();
           $("#server-delete").show();
@@ -80,16 +94,16 @@ class Lobby extends BaseSite {
     }));
   }
 
-  createServerItem(name, ip, func=function(){}){
+  createServerItem(name, server_data, func=function(){}){
     return $("<a/>", {
       href: "#",
       html: name,
       class: "dropdown-item",
       click: (function(){
         $("#server-selected").html(name);
-        this.current_server = { name: name, ip: ip };
+        this.current_server = { name: name, ip: server_data.ip, gameport: server_data.gameport, lobbyport: server_data.lobbyport};
         func();
-        this.refreshLobbyList(ip);
+        this.refreshLobbyList(server_data.ip, server_data.lobbyport, true);
       }).bind(this)
     });
   }
@@ -98,20 +112,50 @@ class Lobby extends BaseSite {
     bootbox.alert("HIER NEUER SERVER DIALOG");
   }
 
-  refreshLobbyList(server_ip, force_update=false){
+  lobbyStatus(status){
+    if(status === "success"){ // show table
+      let lefttime = (Date.now() - this.loading_start_time);
+      lefttime = this.minimum_loading_time - lefttime;
+      if(lefttime > 0){
+        setTimeout(function(){
+          $("#table-loading").hide();
+          $("#table-lobby").show();
+        }, lefttime);
+      } else {
+        $("#table-loading").hide();
+        $("#table-lobby").show();
+      }
+    } else if (status === "error") {
+      $("#table-loading").html('<span class="oi oi-loop-warning"></span> Server offline!');
+      $("#table-loading").show();
+      $("#table-lobby").hide();
+    } else { // hide table, show loading spin
+      $("#table-loading").html('<span class="oi oi-loop-circular spin"></span> Loading ...');
+      $("#table-loading").show();
+      $("#table-lobby").hide();
+      this.loading_start_time = Date.now();
+    }
+  }
+
+  refreshLobbyList(server_ip, lobbyport, force_update=false){
+    this.lobbyStatus("loading");
     if(!(server_ip in this.cache)){
       force_update = true;
     }
     if(force_update){
-        $.getJSON( "http://"+server_ip+":8083/LobbyBrowser", (function( data ) {
+        $.getJSON( "http://"+server_ip+":"+lobbyport+"/LobbyBrowser", (function( data ) {
           this.cache[server_ip] = {
             data: data,
             timestamp: Date.now()
           };
           this.setLobbyData(data);
+          this.lobbyStatus("success");
+        }).bind(this)).fail((function(){
+          this.lobbyStatus("error");
         }).bind(this));
     } else {
       this.setLobbyData(this.cache[server_ip].data);
+      this.lobbyStatus("success");
     }
 
   }
