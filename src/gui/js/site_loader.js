@@ -5,3 +5,6 @@ function load_site(name){
     site.base_onenter();
   });
 }
+$(function(){
+  load_site('Lobby');
+});

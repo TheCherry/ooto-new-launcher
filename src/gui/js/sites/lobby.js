@@ -44,9 +44,9 @@ class Lobby extends BaseSite {
       columns:[
         {title:"Name", field:"name"},
         {title:"Description", field:"description"},
-        {title:"Private", field:"private"},
-        {title:"Players", field:"players"},
-        {title:"Mod", field:"mod"},
+        {title:"Private", field:"isPrivate"},
+        {title:"Players", field:"playerCount"},
+        {title:"Mod", field:"patchFile"},
         {title:"Plugins", field:"plugins"},
         // {title:"Progress", field:"progress", sorter:"number", align:"left", formatter:"progress"  },
         {title:"Actions", field:"icons", formatter:printIcon, align:"center", cellClick:function(e, cell){alert("Printing row data for: " + cell.getRow().getData().name)}}
