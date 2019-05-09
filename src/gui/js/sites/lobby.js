@@ -130,10 +130,14 @@ class Lobby extends BaseSite {
         $("#table-lobby").show();
       }
     } else if (status === "error") {
-      $("#table-loading").html('<span class="oi oi-loop-warning"></span> Server offline!');
+      $("#table-loading").removeClass("alert-info");
+      $("#table-loading").addClass("alert-danger");
+      $("#table-loading").html('<span class="text-warning oi oi-warning"></span> Server offline!');
       $("#table-loading").show();
       $("#table-lobby").hide();
     } else { // hide table, show loading spin
+      $("#table-loading").removeClass("alert-danger");
+      $("#table-loading").addClass("alert-info");
       $("#table-loading").html('<span class="oi oi-loop-circular spin"></span> Loading ...');
       $("#table-loading").show();
       $("#table-lobby").hide();
