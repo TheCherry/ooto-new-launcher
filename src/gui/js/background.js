@@ -30,9 +30,10 @@
   window.onload = function () {
     global.bg = {};
     global.bg.base_canvas = document.createElement('canvas');
-    global.bg.base_context = global.canvas.getContext('2d');
+    global.bg.base_context = global.bg.base_canvas.getContext('2d');
     global.bg.base_canvas.width = 2000;
     global.bg.base_canvas.height = 600;
+
     global.bg.show_canvas = document.getElementById('canvas2');
     global.bg.show_canvas.width = 2127;
     global.bg.show_canvas.height = 600;
@@ -42,15 +43,15 @@
   }
 
   function draw(x1,x2) {
-    global.context.clearRect(0, 0, global.bg.base_canvas.width, global.bg.base_canvas.height);
-    global.context.drawImage(fog1, 0, 0, 1000, 600, x1, 0, 1000, 600);
-    global.context.drawImage(fog1, 0, 0, 1000, 600, x2, 0, 1000, 600);
+    global.bg.base_context.clearRect(0, 0, global.bg.base_canvas.width, global.bg.base_canvas.height);
+    global.bg.base_context.drawImage(fog1, 0, 0, 1000, 600, x1, 0, 1000, 600);
+    global.bg.base_context.drawImage(fog1, 0, 0, 1000, 600, x2, 0, 1000, 600);
 
-    global.context.drawImage(fog2, 0, 0, 1000, 600, x1, 0, 1000, 600);
-    global.context.drawImage(fog2, 0, 0, 1000, 600, x2, 0, 1000, 600);
+    global.bg.base_context.drawImage(fog2, 0, 0, 1000, 600, x1, 0, 1000, 600);
+    global.bg.base_context.drawImage(fog2, 0, 0, 1000, 600, x2, 0, 1000, 600);
 
     global.bg.show_context.clearRect(0, 0, global.bg.show_canvas.width, global.bg.show_canvas.height);
-    global.bg.show_context.drawImage(global.canvas, 1000, 0, 1000, 600, 0, 0, 2127, 600);
+    global.bg.show_context.drawImage(global.bg.base_canvas, 1000, 0, 1000, 600, 0, 0, 2127, 600);
 
   }
 
