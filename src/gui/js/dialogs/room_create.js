@@ -3,7 +3,7 @@ class RoomCreate extends BaseDialog {
     super();
     this.html_file = "room_create.html";
     this.title = "CREATE GAME";
-    this.size = 'large';
+    this.size = 'extra-large';
     this.buttons = {
       cancel: {
         label: "CANCEL",

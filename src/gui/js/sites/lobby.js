@@ -33,24 +33,33 @@ class Lobby extends BaseSite {
     var printIcon = function(cell, formatterParams, onRendered){ //plain text value
        return "<button class=\"btn btn-sm btn-primary\" >JOIN</button> <button class=\"btn btn-sm btn-primary\">INFO</button>";
     };
+    var icon_password = function(cell, formatterParams, onRendered, test){
+      if(cell.getValue() === true || cell.getValue() === "true"){
+        return "<span class='text-danger oi oi-lock-locked'></span>"
+      } else {
+        return "<span class='text-success oi oi-lock-unlocked'></span>"
+      }
+    }
     this.table = new Tabulator("#table-lobby", {
-      //height:"500px",
+      data: [{"name": "test"}],
       height:450,
       layout:"fitColumns",
-      responsiveLayout:"hide",
+      // responsiveLayout:"hide",
+      // responsiveLayout:"hide",
       initialSort:[             //set the initial sort order of the data
   		    {column:"name", dir:"asc"},
   	  ],
       columns:[
-        {title:"Name", field:"name"},
+        {title:"Name", field:"name", width: 250},
         {title:"Description", field:"description"},
-        {title:"Private", field:"isPrivate"},
-        {title:"Players", field:"playerCount"},
-        {title:"Mod", field:"patchFile"},
-        {title:"Plugins", field:"plugins"},
+        {title:"<span class='text-warning oi oi-key'></span>",  align:"center", field:"icons", formatter:icon_password, field:"isPrivate", width: 50},
+        {title:"<span class='text-success oi oi-person'></span>",  align:"center", field:"playerCount", width: 50},
+        {title:"Mod", field:"patchFile", width: 150},
+        // {title:"Plugins", field:"plugins"},
         // {title:"Progress", field:"progress", sorter:"number", align:"left", formatter:"progress"  },
-        {title:"Actions", field:"icons", formatter:printIcon, align:"center", cellClick:function(e, cell){alert("Printing row data for: " + cell.getRow().getData().name)}}
-      ]
+        {title:"Actions", field:"icons", formatter:printIcon, align:"center", width: 150, cellClick:function(e, cell){alert("Printing row data for: " + cell.getRow().getData().name)}}
+      ],
+      footerElement:'<button class="btn btn-primary" id="btn-create">Create Game</button> <button class="btn btn-primary" id="btn-join">Join Game</button>'
     });
     function customFilter(data, filterValue){
       if(typeof(filterValue) !== "string") {return true};
@@ -65,6 +74,7 @@ class Lobby extends BaseSite {
     }
 
     $("#filter-value").keyup(updateFilter.bind(this));
+    // a = 0/0;
   }
 
   refreshServers(){
@@ -120,14 +130,17 @@ class Lobby extends BaseSite {
     if(status === "success"){ // show table
       let lefttime = (Date.now() - this.loading_start_time);
       lefttime = this.minimum_loading_time - lefttime;
+
       if(lefttime > 0){
-        setTimeout(function(){
+        setTimeout((function(){
           $("#table-loading").hide();
           $("#table-lobby").show();
-        }, lefttime);
+          this.table.redraw();
+        }).bind(this), lefttime);
       } else {
         $("#table-loading").hide();
         $("#table-lobby").show();
+        this.table.redraw();
       }
     } else if (status === "error") {
       $("#table-loading").removeClass("alert-info");
