@@ -1,7 +1,9 @@
 const path = require('path');
 
 const { app, BrowserWindow } = require('electron');
-require("base");
+
+require("./globals");
+require(global.dirGui + 'js/interfaceMain');
 
 
 function createWindow () {
@@ -9,6 +11,7 @@ function createWindow () {
   let win = new BrowserWindow({
     width: 1200,
     height: 900,
+    transparent: false,
     webPreferences: {
       nodeIntegration: true
     }

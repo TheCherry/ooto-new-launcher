@@ -76,7 +76,7 @@ class OotLogger {
           color_level = "blue"
           break;
         case "WARN":
-          color_level = "orange"
+          color_level = "yellow"
           break;
         case "ERRO":
           color_level = "red"
@@ -111,7 +111,7 @@ class OotLogger {
       this.defaultlog(str, LEVEL.INFO, color);
     }
 
-    warning(str, color){
+    warn(str, color){
       this.defaultlog(str, LEVEL.WARN, color);
     }
 

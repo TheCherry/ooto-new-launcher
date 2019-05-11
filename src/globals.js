@@ -7,6 +7,7 @@ const process = require('process');
 global.dirMain = process.cwd() + path.sep;
 global.dirSrc = path.join(global.dirMain,  'src/');
 global.dirModloader = path.join(global.dirSrc,  'modloader/');
+global.dirGui = path.join(global.dirSrc,  'gui/');
 // we have to load src dynamic later if its a compiled version!
 // if release
 // global.dirSrc = 'OotOnline.asar'

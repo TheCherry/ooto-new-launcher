@@ -66,7 +66,7 @@ class PluginSystem {
                                 plugin.ModLoader["api"] = api;
                                 plugin.ModLoader["base"] = process.cwd();
                                 plugin.ModLoader["logger"] = require("./OotLogger")(plugin._name);
-                                inst._plugins.push(plugin);
+                                inst._plugins.push(plugin(cfg));
                             }
                         });
                         let payloads_path = path.join(params.paths[i], file, "/payloads");
@@ -100,8 +100,9 @@ class PluginSystem {
 pluginSystem = new PluginSystem();
 
 class PluginLoader {
-    constructor(pluginSystem) {
+    constructor(pluginSystem, cfg) {
         this._pluginSystem = pluginSystem;
+        this._cfg = cfg
     }
 
     load(callback) {
@@ -110,6 +111,7 @@ class PluginLoader {
                 paths: [
                     process.cwd() + '/plugins/',
                 ],
+                cfg: this.cfg,
                 custom: [],
             })
             .then(function onSuccess(plugins) {
@@ -152,4 +154,8 @@ class PluginLoader {
     }
 }
 
-module.exports = new PluginLoader(pluginSystem);
+function loadAllPlugins(cfg){
+  return new PluginLoader(pluginSystem, cfg);
+}
+
+module.exports = loadAllPlugins

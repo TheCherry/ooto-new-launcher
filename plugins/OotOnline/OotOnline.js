@@ -16,14 +16,14 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-const api = require(global.OotRunDir + "/OotAPI");
+const api = require(global.dirModloader + "OotAPI");
 
-const CONFIG = require(global.OotRunDir + "/OotConfig");
-const client = require(global.OotRunDir + "/OotClient");
-const emulator = require(global.OotRunDir + "/OotBizHawk");
-const encoder = require(global.OotRunDir + "/OotEncoder");
-const logger = require(global.OotRunDir + "/OotLogger")("OotOnline");
-const colors = require(global.OotRunDir + "/OotColors");
+// const CONFIG = require(global.dirModloader + "OotConfig");
+const client = require(global.dirModloader + "OotClient");
+const emulator = require(global.dirModloader + "OotBizHawk");
+const encoder = require(global.dirModloader + "OotEncoder");
+const logger = require(global.dirModloader + "OotLogger")("OotOnline");
+const colors = require(global.dirModloader + "OotColors");
 
 let ears;
 let shadow;
@@ -715,5 +715,4 @@ class OotOnline {
     }
 }
 
-const ooto = new OotOnline();
-module.exports = ooto;
+module.exports = new OotOnline;

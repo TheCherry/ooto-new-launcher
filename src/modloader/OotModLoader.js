@@ -19,20 +19,15 @@ const fs = require("fs");
 var ncp = require('ncp').ncp;
 var path = require("path");
 //const BUILD_TYPE = "GUI";
-const BUILD_TYPE = "@BUILD_TYPE@";
+const BUILD_TYPE = "GUI";
 const IS_DEV = true;
 const base_dir = global.dirMain;
 const originalFs = fs;
 
-if (BUILD_TYPE === "GUI") {
-    if (app.getPath("exe").indexOf("node_modules") === -1) {
-        process.chdir(base_dir);
-    }
-}
 
 const CONFIG = require('./OotConfig');
 
-let master = require('./OotMasterServer');
+let Master = require('./OotMasterServer');
 let client = require('./OotClient');
 let emu = require('./OotBizHawk');
 let api = require('./OotAPI');
@@ -42,6 +37,8 @@ let logger = require('./OotLogger')('Core');
 const spawn = require('cross-spawn');
 const lb = require("./OotEndpoint");
 const VERSION = require('./OotVersion');
+
+let master = null;
 
 let packetTransformers = {};
 let packetRoutes = {};
@@ -70,6 +67,7 @@ global["OotMPatcher"] = {};
 global.OotMPatcher["dir"] = "./";
 
 function start(){
+    master = new Master();
     if (!fs.existsSync("./temp")) {
         fs.mkdirSync("./temp");
     }
@@ -145,8 +143,8 @@ function start(){
                 client.setup();
             }
         } else {
-            let gui = require('./gui/OotGUI');
-            gui.setupModLoader({ api: api, config: CONFIG, console: global.gui_console_stack, mods: mods, roms: roms_list });
+            // let gui = require('./gui/OotGUI');
+            // gui.setupModLoader({ api: api, config: CONFIG, console: global.gui_console_stack, mods: mods, roms: roms_list });
             var LUA_LOC = ".";
             ncp.limit = 16;
             api.registerEvent("GUI_StartButtonPressed");
@@ -195,13 +193,13 @@ function start(){
                 }
                 CONFIG._patchFile = global.OotModLoader.OVERRIDE_PATCH_FILE;
                 CONFIG.save();
-                if (CONFIG.isMaster) {
-                    if (!isMasterSetup) {
-                        master.setup();
-                        lb.setup();
-                        isMasterSetup = true;
-                    }
-                }
+                // if (CONFIG.isMaster) {
+                //     if (!isMasterSetup) {
+                //         master.setup();
+                //         lb.setup();
+                //         isMasterSetup = true;
+                //     }
+                // }
                 if (CONFIG.isClient) {
                     if (!isClientSetup) {
                         client.setProcessFn(processData);
@@ -234,6 +232,10 @@ function start(){
     });
 
     api.registerEventHandler("onServerConnection", function (event) {
+      console.log("===============================");
+      console.log(BUILD_TYPE);
+      console.log(child);
+      console.log("===============================");
         if (BUILD_TYPE === "GUI") {
             if (child === null) {
                 if (event.hasOwnProperty("patchFile")) {

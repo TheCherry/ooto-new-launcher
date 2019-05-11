@@ -15,7 +15,10 @@ class RoomCreate extends BaseDialog {
         label: "START GAME",
         className: 'btn-success',
         callback: function(){
-          // START GAME !
+          startGame({
+            room_name: "test-001",
+            password: "1234"            
+          });
           callback({});
         }
       }
@@ -25,6 +28,9 @@ class RoomCreate extends BaseDialog {
       $("#room-name").val(hri.random());
       $("#generate-name").click(function() {
         $("#room-name").val(hri.random());
+      });
+      $("#btn-start-game").click(function(){
+
       });
     });
   }

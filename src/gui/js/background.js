@@ -12,23 +12,26 @@
   var i = 0;
   function animate() {
     requestAnimationFrame(animate);
-    i += 1;
-    if(i == only_every){
-      i = 0;
-      x2 += speed;
-      if (x2 <= 0 || x2 >= 2000) {
-        x2 = x1+speed-1000;
+    if(global.bg.enabled){
+      i += 1;
+      if(i == only_every){
+        i = 0;
+        x2 += speed;
+        if (x2 <= 0 || x2 >= 2000) {
+          x2 = x1+speed-1000;
+        }
+        x1 += speed;
+        if (x1 <= 0 || x1 >= 2000) {
+          x1 = x2-1000;
+        }
+        draw(x1, x2);
       }
-      x1 += speed;
-      if (x1 <= 0 || x1 >= 2000) {
-        x1 = x2-1000;
-      }
-      draw(x1, x2);
     }
   }
-  var global = {}
+  // var global = {}
   window.onload = function () {
     global.bg = {};
+    global.bg.enabled = true;
     global.bg.base_canvas = document.createElement('canvas');
     global.bg.base_context = global.bg.base_canvas.getContext('2d');
     global.bg.base_canvas.width = 2000;

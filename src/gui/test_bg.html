@@ -1,0 +1,151 @@
+<html>
+<style media="screen">
+  body {
+    color: white;
+  }
+
+  .test-data {
+    border-style: solid;
+    border-width: 2px;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    background-color:rgba(0, 0, 0, .0);
+  }
+
+  .test-popup {
+    border-style: solid;
+    border-width: 1px;
+    height: 250px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, .0);
+  }
+
+  .ohwei {
+    height: 250px;
+    width: 450px;
+    top: 150px;
+    left: 30px;
+    position: absolute;
+    background-color: blue;
+  }
+
+  .background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3;
+    background-color: blue;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+</style>
+
+<script type="text/javascript">
+  'use strict';
+  (function () {
+  	var x1 = 0;
+    var x2 = 1000;
+  	var y = 0;
+  	var speed = 5;
+    var phase = 1;
+    var only_every = 3;
+
+
+
+
+    var fog1 = new Image();
+    fog1.src = 'https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-1.png';
+    // fog1.src = 'http://i.imgur.com/yf6d9SX.jpg';
+// 934, 622
+    var fog2 = new Image();
+    fog2.src = 'https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-2.png';
+    // fog1.src = 'http://i.imgur.com/yf6d9SX.jpg';
+
+    var i = 0;
+  	function animate() {
+      requestAnimationFrame(animate);
+      i += 1;
+      if(i == only_every){
+        i = 0;
+        x2 += speed;
+        if (x2 <= 0 || x2 >= 2000) {
+          x2 = x1+speed-1000;
+        }
+        x1 += speed;
+        if (x1 <= 0 || x1 >= 2000) {
+          x1 = x2-1000;
+        }
+        //   if (x1 <= 0 || x1 >= 1000+start_x) {
+        //     x1 = 0
+        //     // x2 += speed;
+        //     phase = 2;
+        //   } else {
+        //     x2 = x1-1000;
+        //   }
+        // } else {
+        //   x2 += speed;
+        //   if (x2 <= 0 || x2 >= 1000+start_x) {
+        //     x1 += speed;
+        //     phase = 1;
+        //   } else {
+        //     x1 = x2-1000;
+        //   }
+        draw(x1, x2);
+        }
+      }
+  	// }
+    var global = {}
+    window.onload = function () {
+      global.canvas = document.createElement('canvas');
+      global.context = global.canvas.getContext('2d');
+      global.canvas.width = 2000;
+      global.canvas.height = 600;
+
+      draw(0, 1000);
+      animate()
+    }
+
+  	function draw(x1,x2) {
+      global.context.clearRect(0, 0, global.canvas.width, global.canvas.height);
+      global.context.drawImage(fog1, 0, 0, 1000, 600, x1, 0, 1000, 600);
+      global.context.drawImage(fog1, 0, 0, 1000, 600, x2, 0, 1000, 600);
+
+      global.context.drawImage(fog2, 0, 0, 1000, 600, x1, 0, 1000, 600);
+      global.context.drawImage(fog2, 0, 0, 1000, 600, x2, 0, 1000, 600);
+
+      // global.context.drawImage(fog1, 0, 0, 1000, 600, x2, 0, 1000, 600);
+      //
+      // context.drawImage(fog2, x1, 0, 1000, 1200);
+      // context.drawImage(fog2, x2, 0, 1000, 1200);
+
+
+      var canvas2 = document.getElementById('canvas2');
+      canvas2.width = 2127;
+      canvas2.height = 600;
+  		var context2 = canvas2.getContext('2d');
+      context2.clearRect(0, 0, canvas2.width, canvas2.height);
+      context2.drawImage(global.canvas, 1000, 0, 1000, 600, 0, 0, 2127, 600);
+
+  	}
+
+  }());
+
+</script>
+<h1>Animation mit canvas</h1>
+<main>
+	<!-- <canvas class="background" id="canvas">Beispiel für eine Animation mit Canvas.</canvas> -->
+  <canvas class="background" id="canvas2">Beispiel für eine Animation mit Canvas.</canvas>
+  <!-- <canvas id="canvas3" class="ohwei">Beispiel für eine Animation mit Canvas.</canvas> -->
+
+  HALLO DAS IST EIN TEST<br>
+  HALLO DAS IST EIN TEST<br>
+  HALLO DAS IST EIN TEST<br>
+  <div class="test-data">HI !
+  </div>
+
+</main>
+</html>

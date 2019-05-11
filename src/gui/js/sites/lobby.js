@@ -29,6 +29,10 @@ class Lobby extends BaseSite {
     }).bind(this));
   }
 
+  onshow(){
+
+  }
+
   createTable(){
     var printIcon = function(cell, formatterParams, onRendered){ //plain text value
        return "<button class=\"btn btn-sm btn-primary\" >JOIN</button> <button class=\"btn btn-sm btn-primary\">INFO</button>";
@@ -42,7 +46,7 @@ class Lobby extends BaseSite {
     }
     this.table = new Tabulator("#table-lobby", {
       data: [{"name": "test"}],
-      height:450,
+      height:460,
       layout:"fitColumns",
       // responsiveLayout:"hide",
       // responsiveLayout:"hide",

@@ -335,4 +335,4 @@ class MasterServer {
     }
 }
 
-module.exports = new MasterServer();
+module.exports = MasterServer;

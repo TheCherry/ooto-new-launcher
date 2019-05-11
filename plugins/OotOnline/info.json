@@ -1,0 +1,7 @@
+{
+  "name": "OotOnline",
+  "version": "1.0",
+  "default_conf": {
+    "max_player": 4
+  }
+}
