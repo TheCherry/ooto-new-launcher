@@ -31,7 +31,7 @@ let Master = require('./OotMasterServer');
 let client = require('./OotClient');
 let emu = require('./OotBizHawk');
 let api = require('./OotAPI');
-let plugins = require('./OotPluginLoader');
+let Plugins = require('./OotPluginLoader');
 let logger = require('./OotLogger')('Core');
 
 const spawn = require('cross-spawn');
@@ -66,8 +66,9 @@ global.OotModLoader["OVERRIDE_PASSWORD"] = "";
 global["OotMPatcher"] = {};
 global.OotMPatcher["dir"] = "./";
 
-function start(){
+function start(cfg){
     master = new Master();
+    plugins = Plugins(cfg);
     if (!fs.existsSync("./temp")) {
         fs.mkdirSync("./temp");
     }
